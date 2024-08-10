@@ -25,7 +25,7 @@ npm run start
 Open & edit this file to add a new game :
 
 ```
-cd back/data/db.json
+cd src/assets/db.json
 ```
 
 ---
