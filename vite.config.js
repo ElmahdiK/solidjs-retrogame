@@ -4,7 +4,7 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [solidPlugin()],
-  // base: '/solidjs-retrogame/',
+  base: '/solidjs-retrogame/',
   server: {
     port: 3000,
   },
