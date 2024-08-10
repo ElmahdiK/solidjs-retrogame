@@ -2,8 +2,9 @@ import { createResource, createSignal } from "solid-js";
 import './style.scss';
 
 const fetchGames = async () => {
-    const res = await fetch('http://localhost:4500/games');
-    return res.json();
+    const res = await fetch('../../src/assets/db.json');
+    const result = await res.json();
+    return result.games;
 }
 
 export default function Game() {
