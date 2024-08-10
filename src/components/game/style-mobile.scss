@@ -1,0 +1,19 @@
+@media (width <= 1260px) {
+    main {
+        flex-direction: column-reverse;
+    }
+    aside {
+        width: 100%;
+        height: auto;
+    }
+    .divGames {
+        width: calc(100%);
+        height: auto;
+
+        div {
+            width: calc(25% - 4px);
+            padding: 1px;
+            margin: 1px;
+        }
+    }
+}

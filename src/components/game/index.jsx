@@ -1,5 +1,6 @@
 import { createResource, createSignal } from "solid-js";
 import './style.scss';
+import './style-mobile.scss';
 import gamesData from './db.json';
 
 export default function Game() {
