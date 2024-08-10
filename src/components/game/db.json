@@ -1,6 +1,11 @@
 {
     "games": [
         {
+            "title": "The Smurfs",
+            "src": "https://www.retroplace.com/pics/gameboy/packshots/32844--the-smurfs.png",
+            "link": "25282-smurfs-the-europe-en-fr-de-es"
+        },
+        {
             "title": "Titeuf Ze Gag Machine",
             "src": "https://fr.shopping.rakuten.com/photo/3018030.jpg",
             "link": "27982-titeuf-ze-gagmachine-f-patience"
@@ -82,51 +87,63 @@
         },
         {
             "title": "alleyway",
-            "src": "https://image.konsolenkost.de/item/images/9005381/full/9005381-0.jpg"
+            "src": "https://image.konsolenkost.de/item/images/9005381/full/9005381-0.jpg",
+            "link": "18490-alleyway-world"
         },
         {
             "title": "baseball",
-            "src": "http://www.retroplace.com/pics/gameboy/packshots/32528--baseball.png"
+            "src": "http://www.retroplace.com/pics/gameboy/packshots/32528--baseball.png",
+            "link": "18720-baseball-world"
         },
         {
             "title": "super mario land",
-            "src": "https://level-1.fr/Principal/wp-content/uploads/2020/01/gb_supermarioland-1024x911.jpg"
+            "src": "https://level-1.fr/Principal/wp-content/uploads/2020/01/gb_supermarioland-1024x911.jpg",
+            "link": "44038-super-super-mario-land"
         },
         {
             "title": "yakuman",
-            "src": "https://images.launchbox-app.com/2b8f7a87-7447-4677-8efd-0ccb9e6fb341.jpg"
+            "src": "https://images.launchbox-app.com/2b8f7a87-7447-4677-8efd-0ccb9e6fb341.jpg",
+            "link": "18560-yakuman-japan-rev-a"
         },
         {
             "title": "tennis",
-            "src": "https://m.media-amazon.com/images/I/61KnKZpr4CL._AC_SX466_.jpg"
+            "src": "https://m.media-amazon.com/images/I/61KnKZpr4CL._AC_SX466_.jpg",
+            "link": "25797-tennis-world"
         },
         {
             "title": "tetris",
-            "src": "https://www.gamecash.fr/thumbnail-600/tetris-pal-e171136.jpg"
+            "src": "https://www.gamecash.fr/thumbnail-600/tetris-pal-e171136.jpg",
+            "link": "25597-tetris-world"
         },
         {
             "title": "boxxle",
-            "src": "https://image.jeuxvideo.com/images/gb/b/o/boxxgb0f.jpg"
+            "src": "https://image.jeuxvideo.com/images/gb/b/o/boxxgb0f.jpg",
+            "link": "17158-boxxle-usa-europe-rev-a"
         },
         {
             "title": "The Bugs Bunny Crazy Castle",
-            "src": "https://wowroms-photos.com/emulators-roms-logo/26/9032/420-420/Bugs-Bunny-Crazy-Castle,-The-(USA,-Europe).jpg"
+            "src": "https://wowroms-photos.com/emulators-roms-logo/26/9032/420-420/Bugs-Bunny-Crazy-Castle,-The-(USA,-Europe).jpg",
+            "link": "25000-bugs-bunny-the-crazy-castle-usa-europe"
         },
         {
             "title": "Motocross Maniacs",
-            "src": "https://www.gamecash.fr/thumbnail-600/motocross-maniacs-e111894.jpg"
+            "src": "https://www.gamecash.fr/thumbnail-600/motocross-maniacs-e111894.jpg",
+            "link": "25018-motocross-maniacs-europe"
         },
         {
             "title": "Hyper Lode Runner: The Labyrinth of Doom",
-            "src": "https://www.mobygames.com/images/covers/l/253293-hyper-lode-runner-game-boy-front-cover.png"
+            "src": "https://www.mobygames.com/images/covers/l/253293-hyper-lode-runner-game-boy-front-cover.png",
+            "link": "18785-hyper-lode-runner-world-rev-a"
         },
         {
             "title": "Pinball: Revenge of the 'Gator",
-            "src": "https://www.gamecash.fr/thumbnail-400-450/gb-revenge-of-the-gator-e158882.jpg"
+            "src": "https://www.gamecash.fr/thumbnail-400-450/gb-revenge-of-the-gator-e158882.jpg",
+            "link": "18182-pinball-revenge-of-the-gator-usa-europe"
         },
         {
             "title": "Castlevania: The Adventure",
-            "src": "https://image.jeuxvideo.com/images/gb/c/a/casagb0f.jpg"
+            "src": "https://image.jeuxvideo.com/images/gb/c/a/casagb0f.jpg",
+            "link": "18119-castlevania-adventure-the-europe"
         }
     ]
 }
