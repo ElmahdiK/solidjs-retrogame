@@ -12,9 +12,9 @@ SolidJS-Retrogame is a retro game platform developed with the SolidJS library | 
 
 ## Project setup instructions
 
-How to play ?
+1/ How to play ?
 
-1/ Go to solidjs-retrogame folder :
+- Go to solidjs-retrogame folder & launch this :
 
 ```
 npm run start
@@ -22,10 +22,10 @@ npm run start
 
 2/ How to add a new game ?
 
-Open & edit this file to add a new game :
+- Open & edit this file to add a new game :
 
 ```
-cd src/assets/db.json
+cd src/components/game/db.json
 ```
 
 ---
