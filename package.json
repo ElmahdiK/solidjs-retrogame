@@ -1,14 +1,18 @@
 {
+  "homepage": "https://elmahdik.github.io/solidjs-retrogame",
   "name": "solidjs-retrogame",
   "version": "0.0.0",
   "description": "",
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.64.0",
     "solid-devtools": "^0.27.3",
     "vite": "^4.5.3",

@@ -11,6 +11,7 @@ export default defineConfig({
     // devtools(),
     solidPlugin(),
   ],
+  base: '/solidjs-retrogame/',
   server: {
     port: 3000,
   },
