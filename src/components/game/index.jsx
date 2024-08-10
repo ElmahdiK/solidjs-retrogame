@@ -1,14 +1,9 @@
 import { createResource, createSignal } from "solid-js";
 import './style.scss';
-
-const fetchGames = async () => {
-    const response = await fetch('./src/components/game/db.json');
-    const results = await response.json();
-    return results.games;
-}
+import gamesData from './db.json';
 
 export default function Game() {
-    const [games] = createResource(fetchGames);
+    const [games] = createResource(() => gamesData.games);
     const [linkGame, setLinkGame] = createSignal('16687-aladdin-usa');
 
     return (
