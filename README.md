@@ -4,7 +4,7 @@
 
 ## solidjs-retrogame
 
-SolidJS-Retrogame is a retro game platform developed with the SolidJS library
+SolidJS-Retrogame is a retro game platform developed with the SolidJS library | 🎮 🕹 😎
 
 ## Author
 
