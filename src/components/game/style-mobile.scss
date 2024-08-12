@@ -3,7 +3,7 @@
         flex-direction: column-reverse;
     }
     aside {
-        width: 100%;
+        width: calc(100% - 40px);
         height: auto;
     }
     .divGames {

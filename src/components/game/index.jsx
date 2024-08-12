@@ -15,6 +15,7 @@ export default function Game() {
                         {(game) => (
                             <div onclick={() => setLinkGame(game.link)}>
                                 <img src={game.src} />
+                                <span>{game.title}</span>
                             </div>
                         )}
                     </For>
