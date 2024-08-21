@@ -3,10 +3,10 @@ import Game from './components/game';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Game />
-    </div>
+    </>
   );
 }
 

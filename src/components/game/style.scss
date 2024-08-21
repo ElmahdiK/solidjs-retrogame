@@ -3,7 +3,7 @@ main {
 }
 aside {
     background-color: #222;
-    width: calc(50% - 40px);
+    flex:1;
     padding: 20px;
     height: 100vh;
     display: flex;
@@ -19,8 +19,8 @@ aside {
     flex-wrap: wrap;
     justify-content: flex-start;
     overflow: scroll;
-    width: calc(50%);
     height: 100vh;
+    flex:1;
 
     div {
         cursor: pointer;
@@ -32,26 +32,32 @@ aside {
         padding: 30px;
 
         &:hover {
-            background-color: #222;
-            // span {
-            //     color: #000;
-            //     text-shadow: 0px 1px 2px #fff;
-            // }
+            background-color: #111;
+            img {
+                filter: drop-shadow(0px 0px 10px dodgerblue);
+                border:2px solid #fff;
+            }
+            span {
+                color: #fff;
+                text-shadow: 0px 1px 2px #000;
+            }
         }
 
         span {
             color: #999;
-            text-shadow: 0px 1px 2px #000;
             font-size: 14px;
             padding: 10px;
             text-transform: capitalize;
             text-align: center;
         }
         img {
-            filter: drop-shadow(0 0 8px #111);
-            width: 100%;
+            // filter: drop-shadow(0 0 8px #111);
+            border:2px solid #111;
+            max-width: 100%;
             max-height: 200px;
             object-fit: contain;
+            // transition: 0.3s;
+            vertical-align: top;
         }
     }
 }

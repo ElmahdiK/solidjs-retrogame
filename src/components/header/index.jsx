@@ -1,5 +1,5 @@
-import './header.scss';
+import './style.scss';
 
-const Header = () => <header>🕹 SolidJS Retrogame 👾</header>;
+const Header = () => <header>🕹 <a href="/">SolidJS Retrogame</a> 👾</header>;
 
 export default Header;
