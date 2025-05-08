@@ -8,25 +8,24 @@ export default function Game() {
     const [linkGame, setLinkGame] = createSignal(null);
 
     const scrollToTop = () => window.scrollTo(0, 0);
-    
+
     return (
         <Show when={games()} fallback={<p>Loading ...</p>}>
+            {!linkGame() && (<p class='p-notice'>Click & Play !</p>)}
             <main>
-                <div class='divGames'>
+                {linkGame() && (<a href="./" class='a-notice'>← Play another game</a>)}
+                {!linkGame() && <div class={`divGames ${linkGame() ? 'active' : ''}`}>
                     <For each={games()}>
                         {(game) => (
-                            <div onclick={() => {
+                            <img src={game.src} alt={game.title} title={game.title} onclick={() => {
                                 setLinkGame(game.link);
                                 scrollToTop();
-                            }}>
-                                <img src={game.src} alt={game.title} title={game.title} />
-                                <span>{game.title}</span>
-                            </div>
+                            }} />
                         )}
                     </For>
-                </div>
+                </div>}
                 {linkGame() && (<aside>
-                    <iframe src={'https://www.retrogames.cc/embed/' + linkGame() + '.html'} width="100%" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+                    <iframe src={'https://www.retrogames.cc/embed/' + linkGame() + '.html'} width="100%" height="100%" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
                 </aside>)}
             </main>
         </Show>

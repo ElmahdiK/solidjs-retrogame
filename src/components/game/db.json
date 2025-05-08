@@ -1,6 +1,11 @@
 {
     "games": [
         {
+            "title": "Mickey Mania",
+            "src": "https://image.jeuxvideo.com/images-sm/mg/m/i/micmmg0f.jpg",
+            "link": "30446-mickey-mania-the-timeless-adventures-of-mickey-mouse-europe"
+        },
+        {
             "title": "The Smurfs",
             "src": "https://www.retroplace.com/pics/gameboy/packshots/32844--the-smurfs.png",
             "link": "25282-smurfs-the-europe-en-fr-de-es"
