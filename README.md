@@ -2,9 +2,9 @@
     <img src="screenshot.webp" />
 </p>
 
-## solidjs-retrogame
+## retrogame
 
-SolidJS-Retrogame is a retro game platform developed with the SolidJS library | 🎮 🕹 😎
+Retrogame is a retro game platform developed with the SolidJS library | 🎮 🕹 😎
 
 ## Author
 
@@ -14,7 +14,7 @@ SolidJS-Retrogame is a retro game platform developed with the SolidJS library | 
 
 1/ How to play ?
 
-- Go to solidjs-retrogame folder & launch this :
+- Go to retrogame folder & launch this :
 
 ```
 npm run start
